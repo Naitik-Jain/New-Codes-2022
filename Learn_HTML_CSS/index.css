@@ -324,3 +324,11 @@ body {
   .low-lineheight  > li {
     margin-top: 2px;
   }
+  
+  
+  a:visited{
+    color:black;
+  }
+  a:hover{
+    color: red;
+  }
