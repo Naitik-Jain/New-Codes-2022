@@ -1,7 +1,5 @@
-#include <stdio.h> 
-#include <stdlib.h> // For exit() 
 
-int main() 
+ 
 { 
 	FILE *fptr1, *fptr2; 
 	char filename[100], c; 
@@ -22,7 +20,7 @@ int main()
 
 	// Open another file for writing 
 	fptr2 = fopen(filename, "w"); 
-	if (fptr2 == NULL) 
+	
 	{ 
 		printf("Cannot open file %s \n", filename); 
 		exit(0); 
