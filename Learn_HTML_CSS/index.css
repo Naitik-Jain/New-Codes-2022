@@ -43,8 +43,10 @@ body {
   h3,
   h4,
   h5,
-  h6 {
-    font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, 'Lucida Grande', sans-serif;
+  h6,
+  h7,
+  h8 {
+    font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, 'Lucida Grande', sans-serif,'Helvetica Neue', Helvetica,;
     margin: 2rem 0 1.6rem;
     color: #DAA520;
   }
@@ -92,6 +94,20 @@ body {
     margin: 1.6rem 0 0.4rem;
   }
   
+    h7 {
+    font-size: 2.1rem;
+    font-style: normal;
+    font-weight: 500;
+    margin: 1.6rem 0 0.4rem;
+  }
+  
+  h8 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    margin: 1.6rem 0 0.4rem;
+  }
+
   blockquote {
     border-left: .2rem solid #1271db;
     font-family: Georgia, Times, 'Times New Roman', serif;
@@ -108,6 +124,8 @@ body {
     background-image: -ms-linear-gradient(top, #442266, rebeccapurple);
     background-image: -o-linear-gradient(top, #442266, rebeccapurple);
     background-image: linear-gradient(to bottom, #442266, rebeccapurple);
+    background-image: -moz-linear-gradient(top, #442266, rebeccapurple);
+    background-image: -ms-linear-gradient(top, #442266, rebeccapurple);
     -webkit-border-radius: 4;
     -moz-border-radius: 4;
     border-radius: 4px;
